@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>open-config-core</artifactId>
+    <artifactId>config-biz</artifactId>
 
 
 </project>
