@@ -6,16 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-service" />
+        <module name="configbiz" />
         <module name="open-config-client" />
         <module name="open-config-core" />
         <module name="open-config-web" />
+        <module name="portal-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-biz" target="1.5" />
+      <module name="config-client" target="1.5" />
+      <module name="config-service" target="1.5" />
+      <module name="configbiz" target="1.5" />
       <module name="open-config" target="1.5" />
       <module name="open-config-client" target="1.5" />
       <module name="open-config-core" target="1.5" />
       <module name="open-config-web" target="1.5" />
+      <module name="portal-service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
